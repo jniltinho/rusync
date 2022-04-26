@@ -29,6 +29,7 @@ tempfile = "3.2.0"
 
 [[bin]]
 name = "rsync"
+path = "src/main.rs"
 
 [profile.release]
 strip = true  # Automatically strip symbols from the binary.
