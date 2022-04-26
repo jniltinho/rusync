@@ -11,8 +11,8 @@ Minimalist `rsync` implementation in Rust.
 # Usage
 
 ```
-$ cargo install rusync
-$ rusync test/src test/dest
+$ cargo install --git https://github.com/jniltinho/rusync.git
+$ rsync test/src test/dest
 :: Syncing from test/src to test/dest …
  50% 24/50 Downloads/archlinux.iso   00:01:30
 ```
